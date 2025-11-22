@@ -1,6 +1,8 @@
-spring:
-  profiles: dev
-  
+spring: 
+   config: 
+    activate : 
+      on-profile: dev
+
 user:
     id: 1
     name: "John Doe - Dev"
@@ -8,12 +10,15 @@ user:
     role: "ADMIN"
     active: true  
 ---
-spring:
-  profiles: release
+spring: 
+   config: 
+    activate : 
+      on-profile: release
 user:
     id: 1
     name: "John Doe- Release"
     email: "john.doe@example.com"
     role: "ADMIN"
     active: true  
+
 
