@@ -1,6 +1,15 @@
-user:
-  id: 1
-  name: "John Doe"
-  email: "john.doe@example.com"
-  role: "ADMIN"
-  active: true
+development:
+  user:
+    id: 1
+    name: "John Doe"
+    email: "john.doe@example.com"
+    role: "ADMIN"
+    active: true
+---
+release:
+  user:
+    id: 1
+    name: "John Doe"
+    email: "john.doe@example.com"
+    role: "ADMIN"
+    active: true
