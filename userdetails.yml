@@ -1,15 +1,19 @@
-development:
-  user:
+spring:
+  profiles: dev
+  
+user:
     id: 1
-    name: "John Doe"
+    name: "John Doe - Dev"
     email: "john.doe@example.com"
     role: "ADMIN"
-    active: true
+    active: true  
 ---
-release:
-  user:
+spring:
+  profiles: release
+user:
     id: 1
-    name: "John Doe"
+    name: "John Doe- Release"
     email: "john.doe@example.com"
     role: "ADMIN"
-    active: true
+    active: true  
+
