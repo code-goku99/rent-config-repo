@@ -4,7 +4,7 @@ spring:
       on-profile: dev
 user:
   id: 1
-  username: "John Doe!!:) "
+  username: "John Doe!!:) :("
   email: "{cipher}453529e37350a395dd4af917e7ce08f2c00aaa2f89a01f4d67af1c828e15bd87ca750d53cb75e5c3e368747e3f735337"
   role: "ADMIN"
   active: true
